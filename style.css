@@ -34,9 +34,11 @@ h3{
 
 .hero-banner{
 	background-color: darkred;
-	height: 100vh;
+	min-height: 100vh;
 	padding: 50px 20px;
 	box-sizing: border-box;
+	position: relative;
+	overflow: hidden;
 
 }
 
@@ -55,25 +57,26 @@ h3{
 }
 
 .character1{
-	background: url(img/character1.png) no-repeat 0 0 ;
+	background: url(img/character1.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
 	position: absolute; top: 117px; right: 89px;
+	transform: rotate(15deg);
 }
 .character2{
-	background: url(img/character2.png) no-repeat 0 0 ;
+	background: url(img/character2.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 307px;
 	height: 371px;
 	position: absolute; top: 213px; right: 277px;
 }
 .character3{
-	background: url(img/character3.png) no-repeat 0 0 ;
+	background: url(img/character3.png) no-repeat 0 0;
 	background-size: 100%;
 	width: 297px;
 	height: 286px;
-	position: absolute; bottom: 74px; right: 109px;
+	position: absolute; bottom: 425px; right: 109px;
 }
 
 a.cta,
