@@ -73,7 +73,7 @@ h3{
 	background-size: 100%;
 	width: 297px;
 	height: 286px;
-	position: absolute; bottom: 300px; right: 109px;
+	position: absolute; bottom: 400px; right: 50px;
 }
 
 a.cta,
@@ -86,6 +86,8 @@ button.cta{
 	border-radius: 10px;
 	text-decoration: none;
 	border: 5px solid rgba(0, 0, 0, 1.0);
+	font-size: 30px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
 	
 }
 
@@ -96,6 +98,8 @@ button.cta.alt{
 	color: ghostwhite;
 	background-color: black;
 	border-color: ghostwhite;
+	font-size: 30px;
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
 }
 
 /*
@@ -117,4 +121,23 @@ button.cta.alt{
 
 */
 
+
+nav{
+	height: 100px;
+	background-color: ghostwhite; 
+	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+ }
+
+
+/*
+	<nav>
+		<a href="#" class="logo">The Gang</a>
+		<ul>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="#story">The Story</a></li>
+			<li><a href="#more-info">More Info</a></li>
+			
+		</ul>
+	</nav>
+*/
 
