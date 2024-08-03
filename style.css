@@ -19,6 +19,19 @@ h4{
 
 }
 
+p{
+	font-weight: bold;
+	font-size: 30px;
+	margin: 30px 0;
+	
+}
+
+h2{
+	font-weight: 800;
+	font-size: 50px;
+
+}
+
 h3{
 	font-weight: bold;
 	font-size: 30px;
@@ -34,8 +47,8 @@ h3{
 
 .hero-banner{
 	background-color: darkred;
-	min-height: 100vh;
-	padding: 50px 20px;
+	min-height: 50vh;
+	padding: 60px 20px;
 	box-sizing: border-box;
 	position: relative;
 	overflow: hidden;
@@ -76,7 +89,7 @@ h3{
 	background-size: 100%;
 	width: 297px;
 	height: 286px;
-	position: absolute; bottom: 425px; right: 109px;
+	position: absolute; bottom: 3px; right: 109px;
 }
 
 a.cta,
@@ -101,46 +114,71 @@ button.cta.alt{
 	color: ghostwhite;
 	background-color: black;
 	border-color: ghostwhite;
-	font-size: 30px;
+	font-size: 20px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
 }
-
-/*
-	<div class="hero=banner">
-		<div class="wrapper"></div>
-		<h4>Alex Amaya Private Investigations Presents</h4>
-		<h1>The Most Dangerous</br>
-		 Global Terrorist Group</br>
-		 of the Modern Era</h1>
-		 <h3>Meet Circle Guy, Hat Guy, and Red Guy</br>
-		 Each one of them are cut from the same bloody, murderous cloth.</h3>
-		 <a class="cta alt" href="#more-info">Read More</a>
-
-	</div>
-	<div class="character1"></div>
-	<div class="character2"></div>
-	<div class="character3"></div>
-	</div> 
-
-*/
-
 
 nav{
 	height: 100px;
 	background-color: ghostwhite; 
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+	position: sticky;
+	top: 0;
  }
+
+ nav .logo{
+ 	display: block;
+ 	width: 300px;
+ 	height: 40px;
+ 	position: absolute; top: 50%; left: 0;
+ 	margin-top: -20px;
+ 	margin-left: 30px;
+ 	background: url(img/logo.png) no-repeat 0 0;
+ 	background-size: 100%;
+ 	overflow: hidden;
+ 	text-indent: -999px;
+ }
+
+ nav ul{
+ 	padding: 0;
+ 	margin: 0 20px 0 0;
+ }
+
+ nav ul li{
+ 	margin: 0;
+ 	padding: 0;
+ 	display: block;
+ 	float: right;
+ }
+
+ nav ul li a{
+ 	display: block;
+ 	height: 100%;
+ 	box-sizing: border-box;
+ 	font-size: 30px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	color: black;
+ 	text-decoration: none;
+ 	padding: 35px 10px;
+ 	line-height: 30px;
+
+ }
+
+.more-info{
+	text-align: center;
+}
+
+.wrapper{
+	background-color: darkred;
+}
 
 
 /*
-	<nav>
-		<a href="#" class="logo">The Gang</a>
-		<ul>
-			<li><a href="#">Sign Up</a></li>
-			<li><a href="#story">The Story</a></li>
-			<li><a href="#more-info">More Info</a></li>
-			
-		</ul>
-	</nav>
+	<div class="more-info" id="more-info">
+		<h2>Join The Hunt</h2>
+		<p>Info about <span class="highlight">The Hunt</span> here</p>
+		<button class="cta">Sign Me Up!</button>
+	</div>
 */
 
