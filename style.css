@@ -55,25 +55,25 @@ h3{
 }
 
 .character1{
-	background: url(img/circle-guy.png) no-repeat 0 0 ;
+	background: url(img/character1.png) no-repeat 0 0 ;
 	background-size: 100%;
 	width: 363px;
 	height: 344px;
 	position: absolute; top: 117px; right: 89px;
 }
 .character2{
-	background: url(img/hat-guy.png) no-repeat 0 0 ;
+	background: url(img/character2.png) no-repeat 0 0 ;
 	background-size: 100%;
 	width: 307px;
 	height: 371px;
 	position: absolute; top: 213px; right: 277px;
 }
 .character3{
-	background: url(img/bored-guy.png) no-repeat 0 0 ;
+	background: url(img/character3.png) no-repeat 0 0 ;
 	background-size: 100%;
 	width: 297px;
 	height: 286px;
-	position: absolute; bottom: 400px; right: 50px;
+	position: absolute; bottom: 74px; right: 109px;
 }
 
 a.cta,
