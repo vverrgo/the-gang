@@ -195,7 +195,7 @@ nav{
 }
 
 .np-list{
-	width: 470px
+	width: 470px;
 	padding: 20px 20px 0 20px; 
 	box-sizing: border-box;
 	background-color: grey;
@@ -203,7 +203,7 @@ nav{
 }
 
 .np-list, li{
-	height: 70;
+	height: 70px;
 	border-radius: 10px;
 	font-size: 40px;
 	color: ghostwhite;
@@ -212,6 +212,7 @@ nav{
 	margin-bottom: 20px;
 	padding: 6px 20px;
 	box-sizing: border-box;
+	
 }
 
 .np-list, li.red{background-color: black;}
