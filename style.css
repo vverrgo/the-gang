@@ -214,14 +214,12 @@ nav{
 	box-sizing: border-box;
 }
 
-.np-list, li.red{background-color: red;}
-.np-list, li.blue{background-color: blue;}
+.np-list, li.red{background-color: black;}
+.np-list, li.blue{background-color: black;}
 .np-list, li.gray{background-color: gray;}
-.np-list, li.yellow{
-	background-color: yellow;
-	color: black;}
-.np-list, li.pink{background-color: pink;}
-.np-list, li.salmon{background-color: salmon;}
+.np-list, li.yellow{background-color: black;}
+.np-list, li.pink{background-color: black;}
+.np-list, li.salmon{background-color: black;}
 
 /*
 <div class="seperator">
