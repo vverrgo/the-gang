@@ -190,12 +190,68 @@ nav{
 	background-color: darkred;
 }
 
+.sep{
+
+}
+
+.np-list{
+	width: 470px
+	padding: 20px 20px 0 20px; 
+	box-sizing: border-box;
+	background-color: grey;
+	float: left;
+}
+
+.np-list, li{
+	height: 70;
+	border-radius: 10px;
+	font-size: 40px;
+	color: ghostwhite;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 20px;
+	padding: 6px 20px;
+	box-sizing: border-box;
+}
+
+.np-list, li.red{background-color: red;}
+.np-list, li.blue{background-color: blue;}
+.np-list, li.gray{background-color: gray;}
+.np-list, li.yellow{
+	background-color: yellow;
+	color: black;}
+.np-list, li.pink{background-color: pink;}
+.np-list, li.salmon{background-color: salmon;}
 
 /*
-	<div class="more-info" id="more-info">
-		<h2>Join The Hunt</h2>
-		<p>Info about <span class="highlight">The Hunt</span> here</p>
-		<button class="cta">Sign Me Up!</button>
+<div class="seperator">
+
+	</div>
+	<div class="story" id="story">
+		<ul class="nb list">
+
+				<li class="blue">Chaos</li>
+				<li class="gray">&nbsp;</li>
+				<li class="yellow">Stealing</li>
+				<li class="red">Testing Limits</li>
+				<li class="pink">Pushing The Bounries</li>
+				<li class="salmon">Going All Out</li>
+				<li class="blue">Leftism</li>
+		</ul>
+		<h3>Left: Things The Gang Values</br>
+
+		Below: Backround On The Gang</h3>
+
+		<p>Story of gang goes here. blahblahbalhabahbf. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+
+		<p>more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+
+		<p>put even more story aboutgang here.fdjnbgvurs ifhwoshbfn.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+
+		<p>the final part of the gangs story will go inside this paragraph element.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+	</div>
+		<div class="seperator">
+
 	</div>
 */
 
