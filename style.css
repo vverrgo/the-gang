@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Diplomata+SC&display=swap');
 
 body, html{
-	background-color: ivory;
+	background-color: ghostwhite;
 	font-family: "Black Ops One", system-ui;
 	padding: 0;
 	margin: 0;
@@ -104,7 +104,14 @@ button.cta{
 	border: 5px solid rgba(0, 0, 0, 1.0);
 	font-size: 30px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+	cursor: pointer;
 	
+}
+
+a.cta:active,
+button.cta:active{
+
+	opacity: 0.7;
 }
 
 a.cta.alt,
@@ -116,6 +123,7 @@ button.cta.alt{
 	border-color: ghostwhite;
 	font-size: 20px;
 	box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+	cursor: pointer;
 }
 
 nav{
@@ -167,7 +175,6 @@ nav{
 
 .more-info{
 	text-align: center;
-	padding-bottom: 50px;
 }
 
 .more-info p{
@@ -188,19 +195,23 @@ nav{
 }
 
 .wrapper{
-	background-color: darkred;
+	
 }
 
 .sep{
-
+	width: 470px;
+	height: 10px;
+	background-color: black;
+	margin: 70px auto;
 }
 
 .nb-list{
 	width: 470px;
 	padding: 20px 20px 0 20px; 
 	box-sizing: border-box;
-	background-color: grey;
+	background-color: #ghostwhite;
 	float: left;
+	margin: 0 20px 20px 0;
 }
 
 .nb-list li{
@@ -211,47 +222,171 @@ nav{
 	font-weight: bold;
 	display: block;
 	margin-bottom: 20px;
-	padding: 6px 20px;
+	padding: 10px 20px;
 	box-sizing: border-box;
 	
 }
 
-.nb-list li.red{background-color: black;}
-.nb-list li.blue{background-color: black;}
-.nb-list li.gray{background-color: gray;}
-.nb-list li.yellow{background-color: black;}
-.nb-list li.pink{background-color: black;}
-.nb-list li.salmon{background-color: black;}
+.nb-list li.red{background-color: darkred;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.nb-list li.blue{background-color: darkred;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.nb-list li.gray{background-color: gray;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.nb-list li.yellow{background-color: darkred;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.nb-list li.pink{background-color: darkred;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
+.nb-list li.salmon{background-color: darkred;
+box-shadow: 0 5px 8px rgba(0, 0, 0, .4);
+border: 5px solid rgba(0, 0, 0, 1.0);
+}
 
-/*
-<div class="seperator">
+.story h3{
+	font-size: 40px;
+}
 
-	</div>
-	<div class="story" id="story">
-		<ul class="nb list">
+.sep{
+	width: 470px;
+	height: 10px;
+	background-color: black;
+	margin: 70px auto;
+}
 
-				<li class="blue">Chaos</li>
-				<li class="gray">&nbsp;</li>
-				<li class="yellow">Stealing</li>
-				<li class="red">Testing Limits</li>
-				<li class="pink">Pushing The Bounries</li>
-				<li class="salmon">Going All Out</li>
-				<li class="blue">Leftism</li>
-		</ul>
-		<h3>Left: Things The Gang Values</br>
+.gang-image{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
 
-		Below: Backround On The Gang</h3>
+footer{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+	margin: 85px 0 45px
+	font-weight: bold;
+	padding: 20px;
+}
 
-		<p>Story of gang goes here. blahblahbalhabahbf. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg. more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+.popup{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 2;
+}
 
-		<p>more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+.popup.show{
+	display: block;
+}
 
-		<p>put even more story aboutgang here.fdjnbgvurs ifhwoshbfn.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
+.popup .blanket{
+	position: absolute;
+	background-color: rgba(0, 0, 0, .7);
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 
-		<p>the final part of the gangs story will go inside this paragraph element.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.more story goes here about the gang. fihaoisfhb iords  ighfosihg.</p>
-	</div>
-		<div class="seperator">
+}
 
-	</div>
-*/
+.popup .content{
+	margin-left: -480px;
+	left: 50%;
+	position: absolute;
+	width: 960px;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	background-color: white;
+	text-align: center;
+	height: 500px;
+	top: 50%;
+	margin-top: -250px;
+}
 
+.popup h2{
+	margin: 10px 0 20px;
+}
+
+.popup .cta{
+	margin-top: 40px;
+}
+
+.popup .close{
+	width: 70px;
+	height: 70px;
+	background: darkred url(img/close.png) no-repeat center center;
+	background-size: 50%;
+	top: -40px;
+	right: -40px;
+	border-radius: 50%;
+	border: none;
+	outline: none;
+	overflow: hidden;
+	text-indent: -999px;
+	position: absolute;
+	cursor: pointer;
+
+}
+
+.popup .close:active{
+	opacity: 0.7;
+}
+
+
+.popup .row{
+
+
+}
+
+.popup .row:after{
+
+content: "";
+display: table;
+clear: both;
+	
+}
+
+.popup .item{
+	float: left;
+	width: 415px;
+	margin-left: 40px;
+	text-align: left;
+}
+
+.popup .item:first-child{
+	margin-left: 0;
+}
+
+.popup .item label{
+
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+
+}
+
+.popup .item input[type=text]{
+
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	border: 4px solid black;
+	height: 70px;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 15px 20px;
+}
