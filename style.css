@@ -194,7 +194,7 @@ nav{
 
 }
 
-.np-list{
+.nb-list{
 	width: 470px;
 	padding: 20px 20px 0 20px; 
 	box-sizing: border-box;
@@ -202,7 +202,7 @@ nav{
 	float: left;
 }
 
-.np-list, li{
+.nb-list li{
 	height: 70px;
 	border-radius: 10px;
 	font-size: 40px;
@@ -215,12 +215,12 @@ nav{
 	
 }
 
-.np-list, li.red{background-color: black;}
-.np-list, li.blue{background-color: black;}
-.np-list, li.gray{background-color: gray;}
-.np-list, li.yellow{background-color: black;}
-.np-list, li.pink{background-color: black;}
-.np-list, li.salmon{background-color: black;}
+.nb-list li.red{background-color: black;}
+.nb-list li.blue{background-color: black;}
+.nb-list li.gray{background-color: gray;}
+.nb-list li.yellow{background-color: black;}
+.nb-list li.pink{background-color: black;}
+.nb-list li.salmon{background-color: black;}
 
 /*
 <div class="seperator">
